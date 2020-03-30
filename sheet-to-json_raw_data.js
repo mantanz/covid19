@@ -1,23 +1,16 @@
 
 const fs = require('fs');
 const drive = require("drive-db");
-let moment = require("moment");
-const rawData = require('./raw_data');
 
 const SHEET = "1f3Rv5gcykBBDt_L8ILHsYerGJOtVf4QJwCg1yHkAAgE";
-const SHEET_STATEWISE_TAB = "ovd0hzm"
-const SHEET_CASES_TIME_SERIES_TAB = "o6emnqt"
-const SHEET_KEY_VALUES_TAB = "owlnkho"
-const SHEET_Tested_Numbers_ICMR_Data = "ozg9iqq"
+const SHEET_RAW_DATA = "1"
+
 
 const dir='./'
-const filename = '/data.json'
+const filename = '/raw_data.json'
 
 const tabs = {
-  statewise: SHEET_STATEWISE_TAB,
-  cases_time_series: SHEET_CASES_TIME_SERIES_TAB,
-  key_values: SHEET_KEY_VALUES_TAB,
-  tested:SHEET_Tested_Numbers_ICMR_Data,
+  raw_data: SHEET_RAW_DATA,
 };
 
 async function fetchData() {
@@ -35,7 +28,6 @@ async function fetchData() {
     mergedData = { ...mergedData, ...obj };
   });
 
-  mergedData.statewise = mergedData.statewise.map(data => Object.assign(data, {delta: getDelta(data.state)}));
   return mergedData;
 }
 
@@ -53,39 +45,12 @@ function sortObjByKey(value) {
     value;
 }
 
-function getDelta(state) {
-  return  rawData.raw_data.reduce((stat, row) => {
-    let stateName = row.detectedstate;
-    let isToday = moment().utcOffset(330).isSame(moment(row.dateannounced, "DD-MM-YYYY"), "day");
-    if (stateName && (stateName === state || state === "Total") && isToday) {
-      let currentStatus = row.currentstatus;
-      if (currentStatus) {
-        stat.confirmed += 1;
-        switch (currentStatus) {
-          case "Hospitalized":
-            stat.active += 1;
-            break;
-          case "Recovered":
-            stat.recovered += 1;
-            break;
-          case "Deceased":
-            stat.deaths += 1;
-            break;
-        }
-      } else {
-        console.error("Current status is empty in sheet for patient:", row.patientnumber);
-      }
-    }
-    return stat;
-  }, {active: 0, confirmed: 0, deaths: 0, recovered: 0});
-}
-
 async function writeData(data) {
   const fileContent = JSON.stringify(sortObjByKey(data),null,"\t");
   if (!fs.existsSync(dir)){
     fs.mkdirSync(dir);
   }
-  return await fs.writeFileSync(dir+filename, fileContent);
+  return await fs.writeFileSync(dir+filename, fileContent);;
 }
 
 async function task() {
