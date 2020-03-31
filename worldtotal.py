@@ -1,4 +1,5 @@
 import pandas as pd
-df = pd.read_csv('input.csv')
+import sys
+df = pd.read_csv(sys.argv[1])
 total = df.sum()
-df.append((total.replace(total[0],'World')), ignore_index=True).to_csv('output.csv')
+df.append((total.replace(total[0],'World')), ignore_index=True).to_csv(sys.argv[2])
