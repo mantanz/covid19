@@ -18,3 +18,4 @@ python3 ./worldtotal.py ../COVID-19/csse_covid_19_data/csse_covid_19_time_series
 
 git add -A
 git commit -m "global data updated" -a
+git push
