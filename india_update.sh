@@ -19,7 +19,7 @@ then
     echo $prev_dt
     dt=`date +%Y-%m-%d`
     echo $dt
-    if [ $prev_dt -eq $dt ]
+    if [ "$prev_dt" -eq "$dt" ]
     then
         echo "date not changed"
         cp ../api/data.json ./data_csv/india_data.json
