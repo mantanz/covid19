@@ -21,7 +21,11 @@ then
     python3 push.py india_data_yesterday.json
     python3 push.py india_data.json
 else
+<<<<<<< Updated upstream
     echo "India files are identical"
+=======
+    echo "do something because they're identical"
+>>>>>>> Stashed changes
 fi
 
 git add -A
