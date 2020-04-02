@@ -15,11 +15,22 @@ comp_value=$?
 
 if [ $comp_value -eq 1 ]
 then
-    cp ./data_csv/india_data.json ./data_csv/india_data_yesterday.json
-    cp ../api/data.json ./data_csv/india_data.json
-    
-    python3 push.py india_data_yesterday.json
-    python3 push.py india_data.json
+    prev_dt=`cat last_date.txt`
+    echo $prev_dt
+    dt=`date +%Y-%m-%d`
+    echo $dt
+    if [ $prev_dt -eq $dt ]
+    then
+        echo "date not changed"
+        cp ../api/data.json ./data_csv/india_data.json
+        python3 push.py india_data.json
+    else 
+        cp ./data_csv/india_data.json ./data_csv/india_data_yesterday.json
+        cp ../api/data.json ./data_csv/india_data.json
+        echo `date +%Y-%m-%d` > last_date.txt
+        python3 push.py india_data_yesterday.json
+        python3 push.py india_data.json
+    fi
 else
     echo "India files are identical"
 fi
