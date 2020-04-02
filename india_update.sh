@@ -21,7 +21,7 @@ then
     python3 push.py india_data_yesterday.json
     python3 push.py india_data.json
 else
-    echo "do something because they're identical"
+    echo "India files are identical"
 fi
 
 git add -A
