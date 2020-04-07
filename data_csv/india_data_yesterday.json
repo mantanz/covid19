@@ -406,16 +406,16 @@
 			"totalrecovered": "10"
 		},
 		{
-			"dailyconfirmed": "6",
+			"dailyconfirmed": "5",
 			"dailydeceased": "0",
 			"dailyrecovered": "3",
 			"date": "15 March ",
-			"totalconfirmed": "113",
+			"totalconfirmed": "112",
 			"totaldeceased": "2",
 			"totalrecovered": "13"
 		},
 		{
-			"dailyconfirmed": "14",
+			"dailyconfirmed": "15",
 			"dailydeceased": "0",
 			"dailyrecovered": "1",
 			"date": "16 March ",
@@ -442,16 +442,16 @@
 			"totalrecovered": "15"
 		},
 		{
-			"dailyconfirmed": "28",
+			"dailyconfirmed": "27",
 			"dailydeceased": "1",
 			"dailyrecovered": "5",
 			"date": "19 March ",
-			"totalconfirmed": "199",
+			"totalconfirmed": "198",
 			"totaldeceased": "4",
 			"totalrecovered": "20"
 		},
 		{
-			"dailyconfirmed": "59",
+			"dailyconfirmed": "60",
 			"dailydeceased": "0",
 			"dailyrecovered": "3",
 			"date": "20 March ",
@@ -478,16 +478,16 @@
 			"totalrecovered": "23"
 		},
 		{
-			"dailyconfirmed": "102",
+			"dailyconfirmed": "94",
 			"dailydeceased": "2",
 			"dailyrecovered": "2",
 			"date": "23 March ",
-			"totalconfirmed": "505",
+			"totalconfirmed": "497",
 			"totaldeceased": "9",
 			"totalrecovered": "25"
 		},
 		{
-			"dailyconfirmed": "66",
+			"dailyconfirmed": "74",
 			"dailydeceased": "1",
 			"dailyrecovered": "15",
 			"date": "24 March ",
@@ -505,34 +505,34 @@
 			"totalrecovered": "43"
 		},
 		{
-			"dailyconfirmed": "78",
+			"dailyconfirmed": "73",
 			"dailydeceased": "5",
 			"dailyrecovered": "7",
 			"date": "26 March ",
-			"totalconfirmed": "735",
+			"totalconfirmed": "730",
 			"totaldeceased": "16",
 			"totalrecovered": "50"
 		},
 		{
-			"dailyconfirmed": "151",
+			"dailyconfirmed": "153",
 			"dailydeceased": "3",
 			"dailyrecovered": "25",
 			"date": "27 March ",
-			"totalconfirmed": "886",
+			"totalconfirmed": "883",
 			"totaldeceased": "19",
 			"totalrecovered": "75"
 		},
 		{
-			"dailyconfirmed": "143",
+			"dailyconfirmed": "141",
 			"dailydeceased": "5",
 			"dailyrecovered": "10",
 			"date": "28 March ",
-			"totalconfirmed": "1029",
+			"totalconfirmed": "1024",
 			"totaldeceased": "24",
 			"totalrecovered": "85"
 		},
 		{
-			"dailyconfirmed": "110",
+			"dailyconfirmed": "115",
 			"dailydeceased": "3",
 			"dailyrecovered": "17",
 			"date": "29 March ",
@@ -541,16 +541,16 @@
 			"totalrecovered": "102"
 		},
 		{
-			"dailyconfirmed": "208",
+			"dailyconfirmed": "190",
 			"dailydeceased": "16",
 			"dailyrecovered": "35",
 			"date": "30 March ",
-			"totalconfirmed": "1347",
+			"totalconfirmed": "1329",
 			"totaldeceased": "43",
 			"totalrecovered": "137"
 		},
 		{
-			"dailyconfirmed": "288",
+			"dailyconfirmed": "306",
 			"dailydeceased": "6",
 			"dailyrecovered": "13",
 			"date": "31 March ",
@@ -577,293 +577,202 @@
 			"totalrecovered": "191"
 		},
 		{
-			"dailyconfirmed": "563",
+			"dailyconfirmed": "560",
 			"dailydeceased": "14",
 			"dailyrecovered": "39",
 			"date": "03 April ",
-			"totalconfirmed": "3108",
+			"totalconfirmed": "3105",
 			"totaldeceased": "86",
 			"totalrecovered": "230"
-		}
-	],
-	"key_values": [
+		},
 		{
-			"confirmeddelta": "393",
-			"counterforautotimeupdate": "645",
-			"deceaseddelta": "5",
-			"lastupdatedtime": "04/04/2020 21:43:23",
-			"recovereddelta": "36",
-			"statesdelta": "0"
+			"dailyconfirmed": "579",
+			"dailydeceased": "13",
+			"dailyrecovered": "56",
+			"date": "04 April ",
+			"totalconfirmed": "3684",
+			"totaldeceased": "99",
+			"totalrecovered": "286"
 		}
 	],
 	"statewise": [
 		{
-			"active": "3144",
-			"confirmed": "3501",
-			"deaths": "91",
-			"delta": {
-				"active": 393,
-				"confirmed": 393,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "393",
-			"deltadeaths": "5",
-			"deltarecovered": "36",
-			"lastupdatedtime": "04/04/2020 21:43:23",
-			"recovered": "266",
+			"active": "3814",
+			"confirmed": "4254",
+			"deaths": "119",
+			"deltaconfirmed": "570",
+			"deltadeaths": "20",
+			"deltarecovered": "35",
+			"lastupdatedtime": "05/04/2020 23:18:25",
+			"recovered": "321",
 			"state": "Total",
 			"statecode": "TT"
 		},
 		{
-			"active": "461",
-			"confirmed": "537",
-			"deaths": "26",
-			"delta": {
-				"active": 47,
-				"confirmed": 47,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "47",
-			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "04/04/2020 14:17:29",
-			"recovered": "50",
+			"active": "647",
+			"confirmed": "748",
+			"deaths": "45",
+			"deltaconfirmed": "113",
+			"deltadeaths": "13",
+			"deltarecovered": "4",
+			"lastupdatedtime": "05/04/2020 20:22:35",
+			"recovered": "56",
 			"state": "Maharashtra",
 			"statecode": "MH"
 		},
 		{
-			"active": "477",
-			"confirmed": "485",
-			"deaths": "2",
-			"delta": {
-				"active": 74,
-				"confirmed": 74,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "74",
-			"deltadeaths": "1",
+			"active": "558",
+			"confirmed": "571",
+			"deaths": "5",
+			"deltaconfirmed": "86",
+			"deltadeaths": "2",
 			"deltarecovered": "0",
-			"lastupdatedtime": "04/04/2020 16:52:26",
-			"recovered": "6",
+			"lastupdatedtime": "05/04/2020 18:47:27",
+			"recovered": "8",
 			"state": "Tamil Nadu",
 			"statecode": "TN"
 		},
 		{
-			"active": "431",
-			"confirmed": "445",
-			"deaths": "6",
-			"delta": {
-				"active": 59,
-				"confirmed": 59,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "59",
-			"deltadeaths": "0",
+			"active": "480",
+			"confirmed": "503",
+			"deaths": "7",
+			"deltaconfirmed": "58",
+			"deltadeaths": "1",
 			"deltarecovered": "0",
-			"lastupdatedtime": "04/04/2020 17:47:37",
-			"recovered": "8",
+			"lastupdatedtime": "05/04/2020 21:24:25",
+			"recovered": "16",
 			"state": "Delhi",
 			"statecode": "DL"
 		},
 		{
-			"active": "254",
-			"confirmed": "306",
+			"active": "256",
+			"confirmed": "314",
 			"deaths": "2",
-			"delta": {
-				"active": 11,
-				"confirmed": 11,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "11",
+			"deltaconfirmed": "8",
 			"deltadeaths": "0",
-			"deltarecovered": "8",
-			"lastupdatedtime": "04/04/2020 18:22:29",
-			"recovered": "50",
+			"deltarecovered": "6",
+			"lastupdatedtime": "05/04/2020 18:11:26",
+			"recovered": "56",
 			"state": "Kerala",
 			"statecode": "KL"
 		},
 		{
-			"active": "186",
-			"confirmed": "229",
+			"active": "289",
+			"confirmed": "333",
 			"deaths": "11",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "0",
+			"deltaconfirmed": "61",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "03/04/2020 20:27:26",
-			"recovered": "32",
+			"lastupdatedtime": "05/04/2020 23:18:27",
+			"recovered": "33",
 			"state": "Telangana",
 			"statecode": "TG"
 		},
 		{
-			"active": "211",
-			"confirmed": "234",
-			"deaths": "2",
-			"delta": {
-				"active": 60,
-				"confirmed": 60,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "60",
-			"deltadeaths": "0",
-			"deltarecovered": "4",
-			"lastupdatedtime": "04/04/2020 21:43:24",
+			"active": "254",
+			"confirmed": "278",
+			"deaths": "3",
+			"deltaconfirmed": "44",
+			"deltadeaths": "1",
+			"deltarecovered": "0",
+			"lastupdatedtime": "05/04/2020 22:39:30",
 			"recovered": "21",
 			"state": "Uttar Pradesh",
 			"statecode": "UP"
 		},
 		{
-			"active": "175",
-			"confirmed": "200",
-			"deaths": "0",
-			"delta": {
-				"active": 21,
-				"confirmed": 21,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "21",
+			"active": "234",
+			"confirmed": "260",
+			"deaths": "1",
+			"deltaconfirmed": "54",
 			"deltadeaths": "0",
-			"deltarecovered": "22",
-			"lastupdatedtime": "04/04/2020 18:56:30",
+			"deltarecovered": "0",
+			"lastupdatedtime": "05/04/2020 22:39:31",
 			"recovered": "25",
 			"state": "Rajasthan",
 			"statecode": "RJ"
 		},
 		{
-			"active": "187",
-			"confirmed": "190",
+			"active": "246",
+			"confirmed": "252",
 			"deaths": "1",
-			"delta": {
-				"active": 26,
-				"confirmed": 26,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "26",
+			"deltaconfirmed": "60",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "03/04/2020 23:32:41",
-			"recovered": "2",
+			"deltarecovered": "3",
+			"lastupdatedtime": "05/04/2020 19:38:34",
+			"recovered": "5",
 			"state": "Andhra Pradesh",
 			"statecode": "AP"
 		},
 		{
-			"active": "143",
-			"confirmed": "154",
-			"deaths": "11",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "0",
-			"deltadeaths": "3",
-			"deltarecovered": "0",
-			"lastupdatedtime": "04/04/2020 17:17:35",
-			"recovered": "0",
+			"active": "178",
+			"confirmed": "193",
+			"deaths": "12",
+			"deltaconfirmed": "14",
+			"deltadeaths": "1",
+			"deltarecovered": "3",
+			"lastupdatedtime": "05/04/2020 19:56:31",
+			"recovered": "3",
 			"state": "Madhya Pradesh",
 			"statecode": "MP"
 		},
 		{
-			"active": "129",
-			"confirmed": "144",
+			"active": "136",
+			"confirmed": "151",
 			"deaths": "4",
-			"delta": {
-				"active": 16,
-				"confirmed": 16,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "16",
+			"deltaconfirmed": "7",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "04/04/2020 17:37:30",
+			"lastupdatedtime": "05/04/2020 18:38:28",
 			"recovered": "11",
 			"state": "Karnataka",
 			"statecode": "KA"
 		},
 		{
-			"active": "88",
-			"confirmed": "108",
-			"deaths": "10",
-			"delta": {
-				"active": 13,
-				"confirmed": 13,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "13",
+			"active": "95",
+			"confirmed": "127",
+			"deaths": "11",
+			"deltaconfirmed": "19",
 			"deltadeaths": "1",
-			"deltarecovered": "0",
-			"lastupdatedtime": "04/04/2020 20:06:25",
-			"recovered": "10",
+			"deltarecovered": "8",
+			"lastupdatedtime": "05/04/2020 23:18:30",
+			"recovered": "21",
 			"state": "Gujarat",
 			"statecode": "GJ"
 		},
 		{
-			"active": "87",
-			"confirmed": "92",
+			"active": "100",
+			"confirmed": "106",
 			"deaths": "2",
-			"delta": {
-				"active": 17,
-				"confirmed": 17,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "17",
+			"deltaconfirmed": "14",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "04/04/2020 17:52:40",
-			"recovered": "3",
+			"deltarecovered": "1",
+			"lastupdatedtime": "05/04/2020 18:11:27",
+			"recovered": "4",
 			"state": "Jammu and Kashmir",
 			"statecode": "JK"
 		},
 		{
-			"active": "56",
-			"confirmed": "84",
+			"active": "61",
+			"confirmed": "90",
 			"deaths": "0",
-			"delta": {
-				"active": 26,
-				"confirmed": 26,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "26",
+			"deltaconfirmed": "6",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "04/04/2020 18:37:27",
-			"recovered": "28",
+			"lastupdatedtime": "05/04/2020 16:34:40",
+			"recovered": "29",
 			"state": "Haryana",
 			"statecode": "HR"
 		},
 		{
-			"active": "57",
-			"confirmed": "65",
-			"deaths": "5",
-			"delta": {
-				"active": 12,
-				"confirmed": 12,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "12",
-			"deltadeaths": "0",
-			"deltarecovered": "2",
-			"lastupdatedtime": "04/04/2020 19:40:26",
-			"recovered": "3",
+			"active": "58",
+			"confirmed": "68",
+			"deaths": "6",
+			"deltaconfirmed": "3",
+			"deltadeaths": "1",
+			"deltarecovered": "1",
+			"lastupdatedtime": "05/04/2020 17:27:25",
+			"recovered": "4",
 			"state": "Punjab",
 			"statecode": "PB"
 		},
@@ -871,12 +780,6 @@
 			"active": "44",
 			"confirmed": "53",
 			"deaths": "6",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
@@ -889,13 +792,7 @@
 			"active": "28",
 			"confirmed": "32",
 			"deaths": "1",
-			"delta": {
-				"active": 1,
-				"confirmed": 1,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "1",
+			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
 			"lastupdatedtime": "04/04/2020 20:06:26",
@@ -904,74 +801,50 @@
 			"statecode": "BR"
 		},
 		{
-			"active": "25",
-			"confirmed": "25",
+			"active": "26",
+			"confirmed": "26",
 			"deaths": "0",
-			"delta": {
-				"active": 2,
-				"confirmed": 2,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "2",
+			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "04/04/2020 14:37:30",
+			"lastupdatedtime": "05/04/2020 00:48:26",
 			"recovered": "0",
 			"state": "Assam",
 			"statecode": "AS"
 		},
 		{
-			"active": "20",
-			"confirmed": "22",
+			"active": "22",
+			"confirmed": "26",
 			"deaths": "0",
-			"delta": {
-				"active": 6,
-				"confirmed": 6,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "6",
+			"deltaconfirmed": "4",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "04/04/2020 18:02:26",
-			"recovered": "2",
+			"deltarecovered": "2",
+			"lastupdatedtime": "05/04/2020 18:11:31",
+			"recovered": "4",
 			"state": "Uttarakhand",
 			"statecode": "UT"
 		},
 		{
-			"active": "18",
-			"confirmed": "20",
+			"active": "37",
+			"confirmed": "39",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "0",
+			"deltaconfirmed": "18",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "03/04/2020 23:42:38",
+			"lastupdatedtime": "05/04/2020 21:33:46",
 			"recovered": "2",
 			"state": "Odisha",
 			"statecode": "OR"
 		},
 		{
-			"active": "18",
+			"active": "13",
 			"confirmed": "18",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "02/04/2020 18:57:31",
-			"recovered": "0",
+			"deltarecovered": "2",
+			"lastupdatedtime": "05/04/2020 21:41:44",
+			"recovered": "5",
 			"state": "Chandigarh",
 			"statecode": "CH"
 		},
@@ -979,12 +852,6 @@
 			"active": "11",
 			"confirmed": "14",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
@@ -997,12 +864,6 @@
 			"active": "10",
 			"confirmed": "10",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
@@ -1012,20 +873,14 @@
 			"statecode": "AN"
 		},
 		{
-			"active": "7",
+			"active": "2",
 			"confirmed": "10",
 			"deaths": "0",
-			"delta": {
-				"active": 1,
-				"confirmed": 1,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "1",
+			"deltaconfirmed": "0",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "04/04/2020 15:57:25",
-			"recovered": "3",
+			"deltarecovered": "5",
+			"lastupdatedtime": "05/04/2020 20:31:27",
+			"recovered": "8",
 			"state": "Chhattisgarh",
 			"statecode": "CT"
 		},
@@ -1033,13 +888,7 @@
 			"active": "7",
 			"confirmed": "7",
 			"deaths": "0",
-			"delta": {
-				"active": 1,
-				"confirmed": 1,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "1",
+			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
 			"lastupdatedtime": "04/04/2020 09:42:27",
@@ -1048,19 +897,13 @@
 			"statecode": "GA"
 		},
 		{
-			"active": "3",
-			"confirmed": "6",
+			"active": "10",
+			"confirmed": "13",
 			"deaths": "2",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "03/04/2020 17:17:36",
+			"lastupdatedtime": "05/04/2020 15:49:35",
 			"recovered": "1",
 			"state": "Himachal Pradesh",
 			"statecode": "HP"
@@ -1069,12 +912,6 @@
 			"active": "5",
 			"confirmed": "5",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
@@ -1084,19 +921,13 @@
 			"statecode": "PY"
 		},
 		{
-			"active": "2",
-			"confirmed": "2",
+			"active": "3",
+			"confirmed": "3",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
-			"deltaconfirmed": "0",
+			"deltaconfirmed": "1",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "02/04/2020 19:42:30",
+			"lastupdatedtime": "05/04/2020 14:04:29",
 			"recovered": "0",
 			"state": "Jharkhand",
 			"statecode": "JH"
@@ -1105,12 +936,6 @@
 			"active": "2",
 			"confirmed": "2",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
@@ -1123,12 +948,6 @@
 			"active": "1",
 			"confirmed": "1",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
@@ -1141,12 +960,6 @@
 			"active": "1",
 			"confirmed": "1",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
@@ -1159,12 +972,6 @@
 			"active": "0",
 			"confirmed": "0",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
@@ -1177,12 +984,6 @@
 			"active": "0",
 			"confirmed": "0",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
@@ -1195,12 +996,6 @@
 			"active": "0",
 			"confirmed": "0",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
@@ -1213,12 +1008,6 @@
 			"active": "0",
 			"confirmed": "0",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
@@ -1231,12 +1020,6 @@
 			"active": "0",
 			"confirmed": "0",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
@@ -1249,12 +1032,6 @@
 			"active": "0",
 			"confirmed": "0",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
@@ -1267,12 +1044,6 @@
 			"active": "0",
 			"confirmed": "0",
 			"deaths": "0",
-			"delta": {
-				"active": 0,
-				"confirmed": 0,
-				"deaths": 0,
-				"recovered": 0
-			},
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
@@ -1482,6 +1253,14 @@
 			"totalpositivecases": "2653",
 			"totalsamplestested": "69245",
 			"updatetimestamp": "3/4/2020 21:00"
+		},
+		{
+			"source": "https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_04April_9PM_IST.pdf",
+			"testsconductedbyprivatelabs": "",
+			"totalindividualstested": "",
+			"totalpositivecases": "3113",
+			"totalsamplestested": "79950",
+			"updatetimestamp": "4/4/2020 21:00"
 		}
 	]
 }
